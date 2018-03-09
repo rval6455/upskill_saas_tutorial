@@ -17,10 +17,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Typography Styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+// Background Gradient
 .navbar, .home-callout {
   // Gradiant provded by @_ighosh @ uigradiants.com
   background: #3C3B3F;  /* fallback for old browsers */
@@ -29,10 +31,12 @@ h1, h2, h3 {
 
 }
 
+//Nav Styles
 .navbar {
   border: none;
 }
 
+// NavBar Styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -42,6 +46,7 @@ h1, h2, h3 {
     }
   }
 
+//Home page styles
 .home-callout {
   color: white;
   margin-top: -20px;
